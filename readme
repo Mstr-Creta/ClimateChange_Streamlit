@@ -1,0 +1,47 @@
+# Global Temperature Trend Dashboard
+
+This Streamlit application provides an interactive dashboard to explore global temperature trends over time.
+
+**Features:**
+
+**Animated Line Chart:** Visualizes global temperature anomalies over time for the selected region. 
+**Interactive Map:** (Optional) Displays regional temperature anomalies on a world map, with animations to show changes over time.
+**10-Year Rolling Average:** Highlights long-term temperature trends.
+**Region and Time Period Selection:** Allows users to customize the analysis based on their interests.
+**Average Temperature:** Displays the average temperature for the selected time period.
+**Animated Data Points:** Visually emphasizes the data points with animated circles moving along the line chart.
+**Summary:** Provides a concise overview of the project and its findings.
+
+**Requirements:**
+
+* Python 
+* Streamlit
+* Pandas
+* Plotly
+* (Optional) GeoPandas (for map visualization)
+
+**Installation:**
+
+1. **Open VS Code**
+2. **Install the required libraries:**
+   - Open the **Terminal** in VS Code (View -> Terminal)
+   - Run the following command:
+     ```bash
+     pip install streamlit pandas plotly geopandas 
+     ```
+
+3. **Create a new Python file:** (e.g., "app.py")
+
+4. **Copy and paste the code** from the provided script into the "app.py" file.
+
+5. **Replace placeholders:**
+   - Replace `"global_temperature.csv"` with the actual path to your temperature data file.
+   - If using map visualization, prepare the map data and update the code accordingly.
+
+**Running the Application:**
+
+1. **Open the Terminal** in VS Code.
+2. **Navigate to the directory** where you saved the "app.py" file using the `cd` command.
+3. **Run the Streamlit app:**
+   ```bash
+   streamlit run app.py 
