@@ -24,4 +24,7 @@ This Streamlit application provides an interactive dashboard to explore global t
 
 1. Install the required libraries:
    ```bash
-   pip install streamlit pandas plotly geopandas 
+   pip install streamlit pandas plotly geopandas
+
+**Live view**
+https://climatechangeapp-c4w3n35augwz4jfh5fsgnt.streamlit.app/
